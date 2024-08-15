@@ -1,23 +1,3 @@
-# fastzdp_upload
-
-专为FastAPI打造的处理文件上传下载的框架
-
-## 特性
-
-- 1、伪代码开发
-- 2、自动拥有上传文件的接口
-- 3、自动拥有下载文件的接口
-- 4、自动拥有搜索文件的接口
-- 5、自动拥有修改文件名的接口
-- 6、自动拥有删除文件的接口
-
-## 使用教程
-
-### 快速入门
-
-启动下面的服务以后，浏览器访问接口文档：http://127.0.0.1:8888/docs
-
-```python
 import fastzdp_upload
 from fastapi import FastAPI
 from sqlmodel import SQLModel, Field, create_engine, Session
@@ -47,11 +27,3 @@ if __name__ == '__main__':
     import uvicorn
 
     uvicorn.run(app, host='0.0.0.0', port=8888)
-```
-
-## 版本历史
-
-### v0.1.3
-
-- 基本功能实现，代码迁移至Github
-
