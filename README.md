@@ -2,6 +2,8 @@
 
 专为FastAPI打造的处理文件上传下载的框架
 
+Github项目开源地址：https://github.com/zhangdapeng520/fastzdp_upload
+
 ## 特性
 
 - 1、伪代码开发
@@ -12,6 +14,12 @@
 - 6、自动拥有删除文件的接口
 
 ## 使用教程
+
+### 安装
+
+```bash
+pip install fastzdp_upload
+```
 
 ### 快速入门
 
@@ -55,3 +63,6 @@ if __name__ == '__main__':
 
 - 基本功能实现，代码迁移至Github
 
+### v0.1.4
+
+- 解决和fastzdp-api依赖冲突的问题
